@@ -28,7 +28,7 @@ class ChatListTile extends StatelessWidget {
             contentPadding: const EdgeInsets.all(4),
             leading: CircleAvatar(
               backgroundImage: NetworkImage(avatarimg),
-              radius: 32,
+              radius: 36,
             ),
             title: Text(
               chatname,
@@ -44,7 +44,7 @@ class ChatListTile extends StatelessWidget {
                   height: 25,
                   width: 25,
                   decoration: BoxDecoration(
-                      color: orangeColor,
+                      color: AppColors.orangeColor,
                       borderRadius: BorderRadius.circular(250)),
                   child: Center(
                     child: Text(

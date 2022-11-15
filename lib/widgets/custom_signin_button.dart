@@ -14,7 +14,7 @@ class CustomSignInButton extends StatelessWidget {
       child: TextButton(
           onPressed: null,
           style: TextButton.styleFrom(
-              backgroundColor: orangeColor,
+              backgroundColor: AppColors.orangeColor,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(25))),
           child: Padding(

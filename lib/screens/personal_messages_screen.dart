@@ -16,11 +16,24 @@ class PersonalMessages extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => ChatScreen(
+                    PageRouteBuilder(
+                        transitionDuration: const Duration(milliseconds: 800),
+                        transitionsBuilder:
+                            (context, animation, animationTime, child) {
+                          animation = CurvedAnimation(
+                              parent: animation, curve: Curves.easeOutBack);
+                          return ScaleTransition(
+                            scale: animation,
+                            alignment: Alignment.center,
+                            child: child,
+                          );
+                          
+                        },
+                        pageBuilder: (context, animation, animationTime) {
+                          return ChatScreen(
                               avatarimg: personalUsers[index]['avatarimg'],
-                              chatname: personalUsers[index]['chatname'],
-                            )));
+                              chatname: personalUsers[index]['chatname']);
+                        }));
               },
               child: ChatListTile(
                   avatarimg: personalUsers[index]['avatarimg'],

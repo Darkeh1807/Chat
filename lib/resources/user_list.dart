@@ -2,7 +2,7 @@ final personalUsers = <Map<String, dynamic>>[
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Elijah',
+    'chatname': 'Gabriel',
     'recentmessage': 'How are u doing',
     'numberofmessages': '12',
     'timestamp': '3mins',
@@ -10,7 +10,7 @@ final personalUsers = <Map<String, dynamic>>[
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Elijah',
+    'chatname': 'Emmanuel',
     'recentmessage': 'How are u doing',
     'numberofmessages': '13',
     'timestamp': '4mins',
@@ -18,15 +18,15 @@ final personalUsers = <Map<String, dynamic>>[
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Elijah',
-    'recentmessage': 'Elijah',
+    'chatname': 'Jessica',
+    'recentmessage': 'Hey',
     'numberofmessages': '1',
     'timestamp': '6mins',
   },
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Elijah',
+    'chatname': 'Issac',
     'recentmessage': 'How are u doing',
     'numberofmessages': '13',
     'timestamp': '2mins',
@@ -34,7 +34,7 @@ final personalUsers = <Map<String, dynamic>>[
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Elijah',
+    'chatname': 'Ishmael',
     'recentmessage': 'How are u doing',
     'numberofmessages': '1',
     'timestamp': '7mins',
@@ -43,7 +43,7 @@ final personalUsers = <Map<String, dynamic>>[
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
     'chatname': 'Elijah',
-    'recentmessage': 'How are u doing',
+    'recentmessage': 'How are u doing 😂',
     'numberofmessages': '13',
     'timestamp': '34mins',
   },
@@ -71,7 +71,6 @@ final personalUsers = <Map<String, dynamic>>[
     'numberofmessages': '1',
     'timestamp': '13mins',
   },
-  
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1665931500523-98ae696c47f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
@@ -345,7 +344,7 @@ final schoolUsers = <Map<String, dynamic>>[
   {
     'avatarimg':
         'https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    'chatname': 'Malia', 
+    'chatname': 'Malia',
     'recentmessage': 'lets go to church',
     'numberofmessages': '13',
     'timestamp': '16mins',
